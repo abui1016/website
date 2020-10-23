@@ -1,0 +1,12 @@
+.containerBig {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.imgContainer {
+    height: 80vh;
+    padding-top: 30px;
+}

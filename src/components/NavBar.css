@@ -1,0 +1,60 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #363538;
+    height: 65px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: default;
+}
+
+.navbar_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.logo {
+    color: #f6f6f6;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.navbar_buttons {
+    text-decoration: none;
+}
+
+.navbar_buttons ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar_buttons li {
+    padding: 0 0.5rem;
+    margin: 4px 0px;
+    cursor: default;
+    transition: all 0.3s;
+}
+
+.navbar_buttons a {
+    color: #f6f6f6;
+    text-decoration: none;
+    padding: 0 15px;
+    cursor: default;
+}
+
+.navbar_buttons li:hover {
+    color: #52d6f4;
+    margin: 0;
+}
+
+
+

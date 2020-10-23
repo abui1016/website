@@ -1,0 +1,5 @@
+#363538 -> Onyx
+#8d8c8a -> Taupe Gray
+#f6f6f6 -> White Smoke
+#408697 -> Queen Blue
+#52d6f4 -> Medium Turquoise

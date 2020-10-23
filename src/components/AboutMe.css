@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #363538;
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f6f6;
+}
+
+.photo {
+    height: 70vh;
+    margin: 15px;
+    
+}
+
+.photo img {
+    height: inherit;
+    padding-left: 5px;
+    box-shadow: 8px 5px 5px black;
+}
+
+.bib {
+    height: 70vh;
+    margin: 15px;
+}
+
+.bib p {
+    line-height: 1.75;
+    font-size: 20px;
+}
+
+span {
+    font-size: 25px;
+}

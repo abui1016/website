@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 10vh;
+    letter-spacing: 10px;
+    color: #363538;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nameplate {
+    order: 1;
+}
+
+@keyframes line {
+    from {
+        left: 50%;
+        width: 0%;
+    }
+    to {
+        left: 5%;
+        width: 60%;
+    }
+}
+
+hr {
+    order: 2;
+    border-top: 1px solid #f6f6f6;
+    animation: line 2.5s linear forwards;
+}
+
+.info_reel {
+    order: 3;
+}
